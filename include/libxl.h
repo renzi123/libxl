@@ -29,7 +29,7 @@
 #if (defined WIN32)|| (defined _MSC_VER)
 #define KEY_SN "windows-28232b0208c4ee0369ba6e68abv6v5i3"
 #else
-#define KEY_SN   "linux-88838b8288848e83898a8e888bv6v5i3" //28232b0208c4ee0369ba6e68abv6v5i3"
+#define KEY_SN   "linux-68636b6268646e63696a6e686bp6p5i3"
 #endif
 
 namespace libxl {
