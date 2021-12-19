@@ -17,5 +17,5 @@ else:
 		LINKFLAGS=['/subsystem:console']
 	)
 
-Program('invoice',['invoice.cpp'])
+Program('demo',['demo.cpp'])
 
