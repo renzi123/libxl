@@ -24,12 +24,11 @@
 #include "libxl_IFilterColumnT.h"
 #include "libxl_IRichStringT.h"
 #include "libxl_IFormControlT.h"
-
 #define KEY "libxl"
 #if (defined WIN32)|| (defined _MSC_VER)
 #define KEY_SN "windows-28232b0208c4ee0369ba6e68abv6v5i3"
 #else
-#define KEY_SN   "linux-68636b6268646e63696a6e686bp6p5i3"
+#define KEY_SN   "linux-i8i3ibi2i8i4iei3i9iaiei8ibx6x5i3" //"linux-68636b6268646e63696a6e686bx6x5i3"
 #endif
 
 namespace libxl {
@@ -64,3 +63,4 @@ static inline Book* xlCreateXMLBook() {Book* bk=_xlCreateXMLBook();bk->setKey(KE
 }
 
 #endif
+
